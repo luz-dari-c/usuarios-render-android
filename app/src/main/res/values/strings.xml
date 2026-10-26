@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Usuarios Render</string>
+    <string name="brand">UNICOLOMBO · DESARROLLO MÓVIL</string>
+    <string name="welcome">Todo tu equipo,\nen un solo lugar.</string>
+    <string name="login_description">Inicia sesión para consultar y gestionar usuarios.</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="register">Crear una cuenta</string>
+    <string name="server_note">Conectado a tu servicio de Render. El primer acceso puede tardar cerca de un minuto si el servidor está en reposo.</string>
+    <string name="users">Usuarios</string>
+    <string name="refresh">Actualizar lista</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="new_user">Nuevo usuario</string>
+    <string name="search">Buscar por nombre o correo</string>
+    <string name="lookup">Consultar por ID</string>
+    <string name="retry">Reintentar</string>
+    <string name="back">Volver</string>
+    <string name="save">Guardar cambios</string>
+    <string name="create">Crear usuario</string>
+    <string name="name">Nombre completo</string>
+    <string name="identifier">ID del usuario</string>
+    <string name="role">Rol</string>
+    <string name="status">Estado</string>
+    <string name="edit">Editar usuario</string>
+    <string name="delete_user">Eliminar usuario</string>
+    <string name="cancel">Cancelar</string>
+    <string name="consult">Consultar</string>
+    <string name="detail">Detalle del usuario</string>
+    <string name="form_help">Completa los datos. El identificador se genera automáticamente y el servidor asigna el estado inicial.</string>
+    <string name="edit_help">Puedes actualizar los datos y el estado. Deja la contraseña vacía para conservar la actual.</string>
+    <string name="new_password">Nueva contraseña (opcional)</string>
+    <string name="role_help">ADMIN: gestión completa · REVIEWER: consultas · MEMBER: acceso limitado.</string>
+    <string name="registration_help">La cuenta se crea como MEMBER y queda PENDING. Un administrador debe activarla para poder iniciar sesión.</string>
+    <string name="loading">Conectando con el servidor…</string>
+    <string name="empty">Todavía no hay usuarios.</string>
+    <string name="no_matches">No hay coincidencias para esta búsqueda.</string>
+    <string name="session_expired">Tu sesión venció. Vuelve a iniciar sesión.</string>
+    <string name="validation_email">Escribe un correo válido.</string>
+    <string name="validation_name">El nombre debe tener entre 3 y 100 caracteres.</string>
+    <string name="validation_password">Usa al menos 8 caracteres.</string>
+</resources>

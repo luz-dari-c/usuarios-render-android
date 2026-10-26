@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#164B45</color>
+    <color name="primary_dark">#0C342F</color>
+    <color name="accent">#C5E6CF</color>
+    <color name="page">#F4F6F2</color>
+    <color name="ink">#172C29</color>
+    <color name="muted">#52655F</color>
+    <color name="line">#DCE5DD</color>
+    <color name="danger">#AD3434</color>
+    <color name="white">#FFFFFF</color>
+</resources>

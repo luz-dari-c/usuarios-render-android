@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.UsuariosRender" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/primary</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="android:windowBackground">@color/page</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">@color/primary</item>
+        <item name="android:statusBarColor">@color/page</item>
+        <item name="android:navigationBarColor">@color/page</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="textInputStyle">@style/Widget.Usuarios.Input</item>
+        <item name="materialButtonStyle">@style/Widget.Usuarios.Button</item>
+    </style>
+    <style name="Widget.Usuarios.Input" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">14dp</item>
+        <item name="boxCornerRadiusTopEnd">14dp</item>
+        <item name="boxCornerRadiusBottomStart">14dp</item>
+        <item name="boxCornerRadiusBottomEnd">14dp</item>
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="android:layout_marginBottom">14dp</item>
+    </style>
+    <style name="Widget.Usuarios.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">14dp</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+    <style name="PageTitle">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/ink</item>
+    </style>
+    <style name="BodyMuted">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/muted</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+    </style>
+    <style name="DetailLabel">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/muted</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+    <style name="DetailValue">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+</resources>
